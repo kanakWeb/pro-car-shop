@@ -8,7 +8,7 @@ const Navbar = ({ children }) => {
 		<div className="drawer  drawer-end">
 			<input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
 			<div className="drawer-content flex flex-col">
-				<div className="w-full navbar top-0 fixed z-50 bg-gradient-to-r from-orange-400 to-blue-300 lg:px-20">
+				<div className="w-full navbar top-0 fixed z-50  bg-gradient-to-r from-gray-400 to-blue-400  opacity-75  lg:px-20">
 					<div className="flex-1 px-2 mx-2 text-2xl">Pro Car Shop</div>
 					<div className="flex-none lg:hidden text-sm">
 						<label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
@@ -35,11 +35,7 @@ const Navbar = ({ children }) => {
 									Home
 								</NavLink>
 							</li>
-							<li>
-								<NavLink to="about" className="rounded-lg">
-									About
-								</NavLink>
-							</li>
+							
 							<li>
 								<NavLink to="service" className="rounded-lg">
 									Services
@@ -55,7 +51,11 @@ const Navbar = ({ children }) => {
 									Login
 								</NavLink>
 							</li>
-
+                            <li>
+								<NavLink to="about" className="rounded-lg">
+									About
+								</NavLink>
+							</li>
 							<li className="dropdown dropdown-end dropdown-hover">
 								<label
 									tabIndex="0"
