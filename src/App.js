@@ -1,3 +1,5 @@
+import AOS from 'aos';
+import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar';
@@ -9,6 +11,10 @@ import Login from './Pages/Login/Login';
 import Services from './Pages/Services/Services';
 
 function App() {
+
+  useEffect(()=>{
+    AOS.init();
+  },[])
   return (
     <>
       <Navbar>
