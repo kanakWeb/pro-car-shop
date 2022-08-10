@@ -3,10 +3,10 @@ import React from "react";
 const Contact = () => {
 	return (
 		<div>
-			<section class="text-gray-600 body-font relative">
+			<section class="bg-base-300 text-gray-800 font-bold card  shadow-2xl m-60 body-font relative">
 				<div class="container px-5 py-24 mx-auto">
 					<div class="flex flex-col text-center w-full mb-12">
-						<h1 class="sm:text-3xl text-4xl font-bold font-medium title-font mb-4 text-gray-900">
+						<h1 class="sm:text-3xl text-4xl font-bold font-medium title-font mb-4 ">
 							Contact Us
 						</h1>
 						<p class="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -18,7 +18,7 @@ const Contact = () => {
 						<div class="flex flex-wrap -m-2">
 							<div class="p-2 w-1/2">
 								<div class="relative">
-									<label for="name" class="leading-7 text-sm text-gray-600">
+									<label for="name" class="leading-7 text-sm ">
 										Name
 									</label>
 									<input
@@ -31,7 +31,7 @@ const Contact = () => {
 							</div>
 							<div class="p-2 w-1/2">
 								<div class="relative">
-									<label for="email" class="leading-7 text-sm text-gray-600">
+									<label for="email" class="leading-7 text-sm">
 										Email
 									</label>
 									<input
@@ -44,7 +44,7 @@ const Contact = () => {
 							</div>
 							<div class="p-2 w-full">
 								<div class="relative">
-									<label for="message" class="leading-7 text-sm text-gray-600">
+									<label for="message" class="leading-7 text-sm">
 										Message
 									</label>
 									<textarea

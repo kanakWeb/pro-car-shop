@@ -4,7 +4,7 @@ import baner from '../../Images/Slider/SliderImages/2.jpg'
 const Landing = () => {
     return (
         <>
-        <div class="hero h-screen relative z-10 lg:h-[60vh] bg-gradient-to-r from-orange-300 to-slate-900  ">
+        <div class="hero  relative z-10 lg:h-[60vh] bg-gradient-to-r from-orange-300 to-slate-900  ">
             <div class="hero-content flex-col lg:flex-row">
                 <div data-aos="fade-right">
                     <p>Best Quality</p>

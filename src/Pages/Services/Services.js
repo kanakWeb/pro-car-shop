@@ -14,7 +14,7 @@ const Services = () => {
            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-5  gap-10">
            {
             services.map((service)=>
-                <Service id={service._id} service={service}></Service>
+                <Service key={service.id} service={service}></Service>
             )
            }
            </div>
