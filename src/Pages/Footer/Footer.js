@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer class="footer p-10 bg-base-200 text-base-content">
+        <footer class="footer p-10 bg-base-300 text-base-content">
   <div>
     <span class="footer-title">Services</span> 
     <a class="link link-hover">Branding</a> 
@@ -31,7 +31,7 @@ const Footer = () => {
       </label> 
       <div class="relative">
         <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
-        <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+        <button class="btn btn-warning absolute top-0 right-0 rounded-l-none">Subscribe</button>
       </div>
     </div>
   </div>
