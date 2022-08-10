@@ -1,13 +1,12 @@
-import React from 'react';
-
+import React from "react";
+import Info from "./Info";
 
 const About = () => {
-    return (
-        <div>
-            <h2>This is About</h2>
-            
-        </div>
-    );
+	return (
+		<div>
+			<Info />
+		</div>
+	);
 };
 
 export default About;
