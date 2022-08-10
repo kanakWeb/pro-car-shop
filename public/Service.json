@@ -29,8 +29,27 @@
         "price":700
        
       },
+      {
+        "id": 4,
+        "name": "Best Quality Car",
+        "des":"Speed: 550 RPM Power Source: Cordless-Electric Battery Cell Type: Lithium Voltage: 30 Volts Battery Capacity: 2 Ah",
+        "img":"https://i.ibb.co/yk1MyV8/2021-Hyundai-Sonata-Hybrid-3.jpg",
+        "MinQuantity":200,
+        "AvailableQuantity":8000,
+        "price":800
+      },
+      {
+        "id": 5,
+        "name": "Expensive Brand new Car",
+        "des":" Speed: 750 RPM · Power Source: Cordless-Electric · Battery Cell Type: Lithium · Voltage: 20 Volts · Battery Capacity: 2ah",
+        "img":"https://i.ibb.co/gMQgd70/74a8a611aa65fcc735f25c597a69c8ce.jpg",
+        "MinQuantity":200,
+        "AvailableQuantity":6000,
+        "price":900
+       
+      },
     {
-      "id": 4,
+      "id": 6,
       "name": "Good Looking Car",
       "des":"Speed: 300 RPM Power Source: Cordless-Electric Battery Cell Type: Lithium Voltage: 30 Volts Battery Capacity: 7Ah",
       "img":"https://i.ibb.co/ZxN8bxF/photo-1612468008274-9445bd56161e.jpg",
