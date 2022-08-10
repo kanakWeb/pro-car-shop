@@ -8,6 +8,7 @@ const Home = () => {
         <div>
             <Landing></Landing>
             <Services/>
+            <Slider/>
         </div>
     );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+ import logo from '../Images/Slider/SliderImages/logo bg.png' 
 
 const Navbar = ({ children }) => {
 	
@@ -9,7 +10,7 @@ const Navbar = ({ children }) => {
 			<input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
 			<div className="drawer-content flex flex-col">
 				<div className="w-full navbar top-0  z-50  bg-gradient-to-r from-gray-400 to-blue-500    lg:px-20">
-					<div className="flex-1 px-2 mx-2 text-2xl">Pro Car Shop</div>
+					<div className="flex-1 font-bold px-2 mx-2 text-2xl"><img className="w-20" src={logo} alt='logo'></img>Pro Car Shop</div>
 					<div className="flex-none lg:hidden text-sm">
 						<label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
 							<svg
